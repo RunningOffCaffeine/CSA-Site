@@ -32,7 +32,6 @@ body {
     flex-wrap: nowrap;
     height: fit-content;
     padding: 5% 5%;
-    min-height: 73.3vh;
 }
 .nav_menu {
     overflow: hidden;
@@ -110,6 +109,7 @@ img {
     max-width: 100%;
     aspect-ratio: 1.5/1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -117,6 +117,8 @@ img {
     color: white;
     border-radius: 10px;
     transition: all 0.3s ease;
+    padding-left: 23vw;
+    padding-bottom: 20px;
   
     &:hover {
       transform: scale(1.05);
@@ -130,18 +132,20 @@ img {
       height: 100%;
       color: black;
       content: attr(alt);
-      display: grid;
+      display: flex;
       place-items: center;
     }
   }
   
   .load-image {
-    display: block;
+    float: center;
+    position: relative;
     background: #ccc;
     height: 400px;
     width: 100%;
     border-radius: 15px;
-    display: grid;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     text-decoration: none;

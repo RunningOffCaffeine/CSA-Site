@@ -12,6 +12,7 @@ div {
     flex-direction: column;
     flex-wrap: nowrap;
     height: fit-content;
+    align-items: center;
     padding: 5% 5%;
     min-height: 73.3vh;
 }
@@ -44,7 +45,7 @@ div {
 .center_par {
     float: center;
     display: flex;
-    text-align: left;
+    text-align: center;
 
 }
 .social_menu {
