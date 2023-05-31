@@ -7,6 +7,9 @@ games. However, I was really able to expand my skills during this project.
 
 One of the challenges I faced was just getting everything to align properly, and
 to actualle center (sortof) on my page. I have no idea what it loks like
-on other computers, but thats a problem for later me. Thes really gave
-me some respect for people who are a ble to build entirely interactive
+on other computers, but thats a problem for later me. I silved the issue by changing the 
+display type to flex, and aligning content to center, and that worked for most, but I 
+also simply added padding if I couldn't figure out a better menthod.
+
+This really gave me some respect for people who are a ble to build entirely interactive
 web pages for all devices (phones, tablets, etc.) 
